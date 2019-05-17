@@ -77,7 +77,49 @@
 
 이 때, <img src="/tex/cf330257519e06f13c2ecab5e25c6d2a.svg?invert_in_darkmode&sanitize=true" align=middle width=21.00464354999999pt height=24.65753399999998pt/>의 식은 다음과 같이 풀어질 수 있다.  
 
-<p align="center"><img src="/tex/477b3e0a21759820b2e26add2aa8e6ee.svg?invert_in_darkmode&sanitize=true" align=middle width=486.53982134999995pt height=18.312383099999998pt/></p>
+
+<p align="center"><img src="/tex/aedfa2746755b661ad5732adee6826c4.svg?invert_in_darkmode&sanitize=true" align=middle width=323.21888774999996pt height=18.312383099999998pt/></p>
+<p align="center"><img src="/tex/38ad42e92b5cc487c551ac7f72cc1f72.svg?invert_in_darkmode&sanitize=true" align=middle width=121.40413395pt height=16.438356pt/></p>
 Thus, 
 
-<p align="center"><img src="/tex/4f08377c7d5058a76218bdcaeac601f2.svg?invert_in_darkmode&sanitize=true" align=middle width=123.66207149999998pt height=13.698590399999999pt/></p> 
+<p align="center"><img src="/tex/e165f085df49d653af941d1334741bbe.svg?invert_in_darkmode&sanitize=true" align=middle width=123.66207149999998pt height=13.698590399999999pt/></p> 
+
+접선의 기울기를 표현할 때 사용한 극한 <img src="/tex/f6cf1f679a64c6f52a0f8a20b8736713.svg?invert_in_darkmode&sanitize=true" align=middle width=62.854261799999996pt height=22.831056599999986pt/>는 <img src="/tex/f24f315a0766ef5a65c0907abc789ca4.svg?invert_in_darkmode&sanitize=true" align=middle width=60.742260149999986pt height=22.831056599999986pt/>와 동치이다. 
+
+따라서, 접선의 기울기는 다음과 같이 표현할 수 있다.
+
+<p align="center"><img src="/tex/d4e25999812b6561254c384fcfd3bfaf.svg?invert_in_darkmode&sanitize=true" align=middle width=201.3051315pt height=22.931502pt/></p>
+
+
+이제 까지 나온 표현을 모두 정리하면 다음과 같다. 
+
+1. 선분의 기울기 
+
+
+<p align="center"><img src="/tex/1414f7287397079e4651f726cb913eca.svg?invert_in_darkmode&sanitize=true" align=middle width=156.29694135pt height=37.1910528pt/></p>
+<p align="center"><img src="/tex/2117044dfdafb99a4c0cfc9d1bb97387.svg?invert_in_darkmode&sanitize=true" align=middle width=138.74182904999998pt height=34.7253258pt/></p>
+2. 접선의 기울기
+
+<p align="center"><img src="/tex/530df31971f5634215608cc8736c046b.svg?invert_in_darkmode&sanitize=true" align=middle width=180.74375385pt height=37.1910528pt/></p>
+<p align="center"><img src="/tex/e177bb0a97f3e6c0aef963b83f1a649a.svg?invert_in_darkmode&sanitize=true" align=middle width=179.39257214999998pt height=34.7253258pt/></p>
+
+이 때, 미분에서는 <img src="/tex/e714a3139958da04b41e3e607a544455.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>에서의 접선 기울기라고 좀 더 명확하게 표현하기 위해 다음과 같이 사용한다. 
+
+<p align="center"><img src="/tex/c74328f830bc54ea800598bdf36c814b.svg?invert_in_darkmode&sanitize=true" align=middle width=227.9428404pt height=34.7253258pt/></p>
+
+## 2.4  미분의 정의  
+<p align="center"><img src="/tex/c74328f830bc54ea800598bdf36c814b.svg?invert_in_darkmode&sanitize=true" align=middle width=227.9428404pt height=34.7253258pt/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
