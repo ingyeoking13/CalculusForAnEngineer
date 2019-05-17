@@ -77,10 +77,60 @@ $$m_{sec}=\frac{x_1^2-x_0^2}{x_1-x_0}=\frac{(x_0+\Delta x)^2-x_0^2}{\Delta x} \t
 
 이 때, $(3)$의 식은 다음과 같이 풀어질 수 있다.  
 
-$$(x_0+\Delta x)^2 - x_0^2  
-                = x_0^2+2x_0 \Delta x + (\Delta x)^2 - x_0^2 \newline 
-                \;\;\;\;\;\;\;\;= \Delta x(2x_0 + \Delta x)  
-\newline$$
+
+$$
+(x_0+\Delta x)^2 - x_0^2  
+                = x_0^2+2x_0 \Delta x + (\Delta x)^2 - x_0^2   $$
+$$\;\;\;\;\;\;\;\;\;= \Delta x(2x_0 + \Delta x)$$
 Thus, 
 
-$$m_{sec} = 2x_0 + \Delta x$$ 
+$$ 
+m_{sec} = 2x_0 + \Delta x 
+$$ 
+
+접선의 기울기를 표현할 때 사용한 극한 $\lim_{x_1 \to x_0}$는 $\lim_{\Delta x \to 0}$와 동치이다. 
+
+따라서, 접선의 기울기는 다음과 같이 표현할 수 있다.
+
+$$
+m = \lim_{\Delta x \to 0}(2 x_0 + \Delta x) = 2x_0
+$$
+
+
+이제 까지 나온 표현을 모두 정리하면 다음과 같다. 
+
+1. 선분의 기울기 
+
+
+$$ m_{sec} = \frac{f(x_1) - f(x_0)}{x_1 - x_0 }$$
+$$\;\;\;\;\;\;\;\;\;\;\;\;\;= \frac{f(x_0 + \Delta x) - x_0 }{\Delta x}$$
+2. 접선의 기울기
+
+$$ m = \lim_{x_1 \to x_0}\frac{f(x_1) - f(x_0)}{x_1 - x_0 } $$
+$$\;\;\;\;\;\;\;\;= \lim_{\Delta x \to 0} \frac{f(x_0 + \Delta x) - x_0 }{\Delta x}
+$$
+
+이 때, 미분에서는 $x_0$에서의 접선 기울기라고 좀 더 명확하게 표현하기 위해 다음과 같이 사용한다. 
+
+$$
+f'(x_0) = \lim_{\Delta x \to 0} \frac{f(x_0 + \Delta x) - x_0 }{\Delta x}
+$$
+
+## 2.4  미분의 정의  
+$$
+f'(x_0) = \lim_{\Delta x \to 0} \frac{f(x_0 + \Delta x) - x_0 }{\Delta x}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
