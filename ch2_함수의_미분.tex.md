@@ -77,14 +77,10 @@ $$m_{sec}=\frac{x_1^2-x_0^2}{x_1-x_0}=\frac{(x_0+\Delta x)^2-x_0^2}{\Delta x} \t
 
 이 때, $(3)$의 식은 다음과 같이 풀어질 수 있다.  
 
-$$
-(x_0+\Delta x)^2 - x_0^2  
-                = x_0^2+2x_0 \Delta x + (\Delta x)^2 - x_0^2 \\  
+$$(x_0+\Delta x)^2 - x_0^2  
+                = x_0^2+2x_0 \Delta x + (\Delta x)^2 - x_0^2 \newline 
                 \;\;\;\;\;\;\;\;= \Delta x(2x_0 + \Delta x)  
-\\
-$$
+\newline$$
 Thus, 
 
-$$ 
-m_{sec} = 2x_0 + \Delta x 
-$$ 
+$$m_{sec} = 2x_0 + \Delta x$$ 
