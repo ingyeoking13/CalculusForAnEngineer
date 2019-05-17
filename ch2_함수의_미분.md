@@ -77,7 +77,7 @@
 
 이 때, <img src="/tex/cf330257519e06f13c2ecab5e25c6d2a.svg?invert_in_darkmode&sanitize=true" align=middle width=21.00464354999999pt height=24.65753399999998pt/>의 식은 다음과 같이 풀어질 수 있다.  
 
-<p align="center"><img src="/tex/ac03c1d644dd995f22161082e04644e3.svg?invert_in_darkmode&sanitize=true" align=middle width=486.53982134999995pt height=18.312383099999998pt/></p>
+<p align="center"><img src="/tex/477b3e0a21759820b2e26add2aa8e6ee.svg?invert_in_darkmode&sanitize=true" align=middle width=486.53982134999995pt height=18.312383099999998pt/></p>
 Thus, 
 
-<p align="center"><img src="/tex/e165f085df49d653af941d1334741bbe.svg?invert_in_darkmode&sanitize=true" align=middle width=123.66207149999998pt height=13.698590399999999pt/></p> 
+<p align="center"><img src="/tex/4f08377c7d5058a76218bdcaeac601f2.svg?invert_in_darkmode&sanitize=true" align=middle width=123.66207149999998pt height=13.698590399999999pt/></p> 
