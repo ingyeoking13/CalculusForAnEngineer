@@ -6,8 +6,9 @@
 2. 접선  
 2.1 접선  
 2.2 접선의 기울기를 구하기   
-2.3 delta notation  
+2.3 delta notation 1  
 2.4 미분의 정의   
+2.5 delta notation 2
 
 ## introduction  
 `calculus`는 보통 크게 두 파트로 나뉜다. 첫 째는 `미분differential calculus`이고, 둘 째는 `적분integral calculus`이다.  
@@ -30,14 +31,14 @@
 
 ## 2.2 접선의 기울기를 구하기  
 
-곡선 위의 점 P가 다음을 만족한다고 하자.   $P=(x_0,y_0)$   
-그리고, 곡선 위의 다른점 Q가 다음을 만족한다고 하자.$Q=(x_1,y_1)$
+곡선 위의 점 P가 다음을 만족한다고 하자. $P=(x_0,y_0)$    
+그리고, 곡선 위의 다른점 Q가 다음을 만족한다고 하자. $Q=(x_1,y_1)$  
 
 이 때, 선분 $\overline{PQ}$는 다음을 만족한다.  
 
-$$m_{secant} = slope\,of\,\overline{PQ} = \frac{y_1-y_0}{x_1-x_0}\tag1$$
+$$m_{secant} = \text{slope of }\overline{PQ} = \frac{y_1-y_0}{x_1-x_0}\tag1$$
 
-점 Q를 움직여, $x_1$을 $x_0$에 근접한다고 하자. 선분은 접선 $P$와 닮아 가는 것을 볼 수 있다. 이러한 행위를 다음과 같이 표현할 수 있다.
+점 Q를 움직여, $x_1$을 $x_0$에 근접한다고 하자. 선분은 접선 $P$와 닮아 가는 것을 직관적으로 알 수 있다. 이러한 행위를 다음과 같이 표현할 수 있다.
 
 $$m = \lim_{Q \to P} m_{sec} = \lim_{x_1 \to x_0} \frac{y_1 - y_0}{x_1 - x_0}\tag2$$  
 
@@ -59,7 +60,7 @@ $$m = \lim_{x_1 \to x_0}\frac{y_1 - y_0}{x_1 - x_0} = \lim_{x_1 \to x_0}\frac{x_
 
 $$m = 2x_0\tag4$$
 
-## 2.3 delta notation  
+## 2.3 delta notation 1 
 
 `delta notation`은 $\Delta x$과 같이 표기한다. $\Delta$는 그리스 문자로 영어 알파벳 $d$를 뜻한다. 이 때 $d$는 `difference`를 뜻하며 두 변수간 값의 차이를 표현하기 위해 사용한다.
 
@@ -132,6 +133,57 @@ $$
 >STEP 1 변화율을 구한다. $f(x+\Delta x) - f(x)$   
 >STEP 2 $\Delta x$로 나누어 평균 변화율을 구한다. $\frac{f(x+\Delta x)-f(x)}{\Delta x}$  
 >STEP 3 $\lim_{\Delta x \to 0}$을 이용하여 평균 변화율의 극한값을 구한다.  
+
+**Example 1** Find $f'(x)$ if $f(x) = x^3$  
+
+**STEP 1**
+
+$$
+ f(x + \Delta x) - f(x) = (x+ \Delta x)^3 - x^3 
+ $$
+ $$
+ = x^3 + 3x^2\Delta x + 3x(\Delta x)^2 + (\Delta x)^3 - x^3
+ $$
+ $$
+ = 3x^2\Delta x + 3x(\Delta x)^2 + (\Delta x)^3
+ $$
+ $$
+ = \Delta x(3x^2 + 3x\Delta x + (\Delta x)^2)
+ $$
+
+**STEP 2**
+
+$$
+\frac{f(x+\Delta x)- f(x)}{\Delta x} = 3x^2 + 3x\Delta x + (\Delta x)^2
+$$
+
+**STEP 3**
+
+$$
+f'(x) = \lim_{\Delta x \to 0}(3x^2 + 3x\Delta x + (\Delta x)^2) = 3x^2
+$$
+
+함수 $f(x) = \frac{1}{x}$ 와 $f(x) = \sqrt{x}$에 대해서 도함수도 구하는 절차는 독자에게 맡긴다.   
+각각의 도함수는 $f'(x) = -\frac{1}{x^2}$과 $f'(x) = \frac{1}{2\sqrt{x}}$이다. 
+
+결과 도함수의 이해를 돕기위해 간략히 쓴다. 도함수 $f'(x) = -\frac{1}{x^2}$는 $\forall x(x \ne 0)$에서 항상 음수이다. 그리고 $x$가 $0$에 근접할 수록 도함수 $f'(x)$의 매우 큰 수로 발산하는 것을 알 수 있다. 이는 $x$가 $0$에 근접할수록 접선이 매우 가팔라 진다는 것이다. $x$의 절대값이 커질수록 $f'(x)$는 $0$에 수렴하며, 접선이 수평선에 가까워진다는 것이다.   
+
+
+## 2.5 delta notation 2  
+
+수학에 있어 표기법은 굉장히 중요한 역할을 한다. 좋은 표기법은 좋은 방향성을 제시해주며, 나쁜 표기법은 쉬운 표현도 어렵게 만드는 법이다.  
+
+우리는 함수 $f(x)$의 도함수를 $f'(x)$라고 표기하였다. 도함수는 함수 $f(x)$에서 도출되었지만 정의역 $x$에 대한 다른 함수임을 강조하기 위해서 $f'(x)$라는 표기를 쓰므로, 좋은표현이라 할 수 있다. 종종, 함수의 치역 변수인 $y$를 써서 $y'$도 쓰기도 한다.  
+
+도함수를 표현하는데에 $f'(x)$의 사용은 단점도 있다. 도함수가 어떻게 도출되었는가를 명확하게 드러내주지 않는다는 점이다. 
+
+앞으로 소개할 수학자 `Leibniz`의 도함수 표현은 도함수가 어떻게 도출되었는가에 대해서는 명확하다고 할 수 있다.
+
+$$\Delta y = {f(x+\Delta x) - f(x)}$$
+
+$$ 
+\frac{dy}{dx} = lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x}$$
+$$
 
 
 # text
