@@ -43,7 +43,7 @@
 
 <img src="/tex/f6cf1f679a64c6f52a0f8a20b8736713.svg?invert_in_darkmode&sanitize=true" align=middle width=62.854261799999996pt height=22.831056599999986pt/>이란, <img src="/tex/277fbbae7d4bc65b6aa601ea481bebcc.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>가 <img src="/tex/e714a3139958da04b41e3e607a544455.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>에 점점 다가간다는 뜻이다. 이에 착안하여, 단순히 <img src="/tex/277fbbae7d4bc65b6aa601ea481bebcc.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/> 에 <img src="/tex/e714a3139958da04b41e3e607a544455.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>을 대입할 수는 없다. 왜냐하면 분모 <img src="/tex/901d8a70099cff0fa75662518b7dd153.svg?invert_in_darkmode&sanitize=true" align=middle width=52.808174099999995pt height=19.1781018pt/>이 <img src="/tex/29632a9bf827ce0200454dd32fc3be82.svg?invert_in_darkmode&sanitize=true" align=middle width=8.219209349999991pt height=21.18721440000001pt/>이 되기 때문이다.
 
-이로써 다음을 명심해야한다. <img src="/tex/277fbbae7d4bc65b6aa601ea481bebcc.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>이 꾸준히 <img src="/tex/e714a3139958da04b41e3e607a544455.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>에 가까워지지만, 여전히 <img src="/tex/277fbbae7d4bc65b6aa601ea481bebcc.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>과 <img src="/tex/e714a3139958da04b41e3e607a544455.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/> 사이에는 명확한 구별이 있어야한다는 점이다. 어쨌건 분모<img src="/tex/d500e7fd1d6d1de1e6f7cc936c6ced47.svg?invert_in_darkmode&sanitize=true" align=middle width=50.13706004999999pt height=19.1781018pt/>와 분자<img src="/tex/a55fdd837b1bc94c4d1421c9fe742112.svg?invert_in_darkmode&sanitize=true" align=middle width=52.808174099999995pt height=19.1781018pt/>이 어떤 작은 수가 된다는 것은 분명하지만, 분수의 결과 값이 어떤 게 될지는 명확하지 않다.  
+이로써 다음을 명심해야한다. <img src="/tex/277fbbae7d4bc65b6aa601ea481bebcc.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>이 꾸준히 <img src="/tex/e714a3139958da04b41e3e607a544455.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>에 가까워지지만, 여전히 <img src="/tex/277fbbae7d4bc65b6aa601ea481bebcc.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>과 <img src="/tex/e714a3139958da04b41e3e607a544455.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/> 사이에는 명확한 구별이 있어야한다는 점이다. 이를 꾸준히 연산하면 분모<img src="/tex/d500e7fd1d6d1de1e6f7cc936c6ced47.svg?invert_in_darkmode&sanitize=true" align=middle width=50.13706004999999pt height=19.1781018pt/>와 분자<img src="/tex/a55fdd837b1bc94c4d1421c9fe742112.svg?invert_in_darkmode&sanitize=true" align=middle width=52.808174099999995pt height=19.1781018pt/>이 어떤 작은 수가 된다는 것은 분명하지만, 분수의 결과 값이 어떤 게 될지는 명확하지 않다.  
 
 만약 점 <img src="/tex/df5a289587a2f0247a5b97c1e8ac58ca.svg?invert_in_darkmode&sanitize=true" align=middle width=12.83677559999999pt height=22.465723500000017pt/>와 <img src="/tex/1afcdb0f704394b16fe85fb40c45ca7a.svg?invert_in_darkmode&sanitize=true" align=middle width=12.99542474999999pt height=22.465723500000017pt/>가 다음 함수 <img src="/tex/e0e62234e6e08eaa90332c05ae9d55a0.svg?invert_in_darkmode&sanitize=true" align=middle width=46.514371199999985pt height=26.76175259999998pt/> 위에 있다고 하자. 그러면 다음을 따른다.
 
@@ -71,7 +71,7 @@
 
 <p align="center"><img src="/tex/83b903a6e64faec29585f93d9b58e8d5.svg?invert_in_darkmode&sanitize=true" align=middle width=98.64137745000001pt height=13.698590399999999pt/></p>
 
-이를 이용해 <img src="/tex/0e241c321e18ed6141f9a47d8095bebd.svg?invert_in_darkmode&sanitize=true" align=middle width=62.56467194999998pt height=24.65753399999998pt/> 함수에서 임의의 정점 P에 대해 다시 한번 선분의 기울기를 표현해보자.
+이를 이용해 <img src="/tex/bcb037123f40331d39ba394f2f25c697.svg?invert_in_darkmode&sanitize=true" align=middle width=46.514371199999985pt height=26.76175259999998pt/> 함수에서 임의의 정점 P에 대해 다시 한번 선분의 기울기를 표현해보자.
 
 <p align="center"><img src="/tex/a7cf047a79d65969e6403f97472a3319.svg?invert_in_darkmode&sanitize=true" align=middle width=253.92876959999998pt height=38.2431621pt/></p>   
 
@@ -86,7 +86,7 @@ Thus,
 
 접선의 기울기를 표현할 때 사용한 극한 <img src="/tex/f6cf1f679a64c6f52a0f8a20b8736713.svg?invert_in_darkmode&sanitize=true" align=middle width=62.854261799999996pt height=22.831056599999986pt/>는 <img src="/tex/f24f315a0766ef5a65c0907abc789ca4.svg?invert_in_darkmode&sanitize=true" align=middle width=60.742260149999986pt height=22.831056599999986pt/>와 동치이다. 
 
-따라서, 접선의 기울기는 다음과 같이 표현할 수 있다.
+마지막으로, 접선의 기울기는 다음과 같이 표현할 수 있다.
 
 <p align="center"><img src="/tex/d4e25999812b6561254c384fcfd3bfaf.svg?invert_in_darkmode&sanitize=true" align=middle width=201.3051315pt height=22.931502pt/></p>
 
@@ -101,25 +101,39 @@ Thus,
 2. 접선의 기울기
 
 <p align="center"><img src="/tex/530df31971f5634215608cc8736c046b.svg?invert_in_darkmode&sanitize=true" align=middle width=180.74375385pt height=37.1910528pt/></p>
-<p align="center"><img src="/tex/e177bb0a97f3e6c0aef963b83f1a649a.svg?invert_in_darkmode&sanitize=true" align=middle width=179.39257214999998pt height=34.7253258pt/></p>
+<p align="center"><img src="/tex/65b11b8b3823d8c623086bcd25f52aeb.svg?invert_in_darkmode&sanitize=true" align=middle width=179.39257214999998pt height=34.7253258pt/></p>
 
 이 때, 미분에서는 <img src="/tex/e714a3139958da04b41e3e607a544455.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>에서의 접선 기울기라고 좀 더 명확하게 표현하기 위해 다음과 같이 사용한다. 
 
 <p align="center"><img src="/tex/c74328f830bc54ea800598bdf36c814b.svg?invert_in_darkmode&sanitize=true" align=middle width=227.9428404pt height=34.7253258pt/></p>
 
-## 2.4  미분의 정의  
-<p align="center"><img src="/tex/c74328f830bc54ea800598bdf36c814b.svg?invert_in_darkmode&sanitize=true" align=middle width=227.9428404pt height=34.7253258pt/></p>
+## 2.4  도함수의 정의  
+
+함수 <img src="/tex/7997339883ac20f551e7f35efff0a2b9.svg?invert_in_darkmode&sanitize=true" align=middle width=31.99783454999999pt height=24.65753399999998pt/>가 주어졌을 때, 그것의 도함수 <img src="/tex/9ce3fa8c71f5905e328dcae5b1d69e2d.svg?invert_in_darkmode&sanitize=true" align=middle width=36.60970994999999pt height=24.7161288pt/>가 정의역 <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>에서 갖는 값은 다음과 같다.    
+
+<p align="center"><img src="/tex/3f9445f8e14d315b8e59892eb5a620c3.svg?invert_in_darkmode&sanitize=true" align=middle width=205.8195447pt height=34.7253258pt/></p>
+
+도함수를 설명할 때 곡선의 임의의 점에 대한 접선의 기울기의 집합이라고 표현할 수 있다. 그러나 반드시 곡선과 같은 그래프를 머리에 떠올려 접선을 그어보지 않아도 된다.  
+여전히 기하학을 이용한 사고방식이 도함수의 이해에 큰 도움이 되지만, 다음 챕터에서는 또 다른 접근법을 알아볼 것이다.
+
+도함수 <img src="/tex/9ce3fa8c71f5905e328dcae5b1d69e2d.svg?invert_in_darkmode&sanitize=true" align=middle width=36.60970994999999pt height=24.7161288pt/>를 구하는 데엔 다음 세가지 방식을 따른다. 이 것을 `three-step rule`이라 하겠다. 앞서 다루었던 내용이므로 다시 한번 기억을 다듬어보는 것도 좋겠다.  
+
+>STEP 1 변화율을 구한다. <img src="/tex/c7614b9d270128341f65cc0b8188ca64.svg?invert_in_darkmode&sanitize=true" align=middle width=127.27171049999998pt height=24.65753399999998pt/>   
+>STEP 2 <img src="/tex/3919bbc84b8079e27194efe99a1f6a80.svg?invert_in_darkmode&sanitize=true" align=middle width=23.09366069999999pt height=22.465723500000017pt/>로 나누어 평균 변화율을 구한다. <img src="/tex/cc978f0a9435c602f7d4f82f85032c09.svg?invert_in_darkmode&sanitize=true" align=middle width=89.47544265pt height=33.20539859999999pt/>  
+>STEP 3 <img src="/tex/f24f315a0766ef5a65c0907abc789ca4.svg?invert_in_darkmode&sanitize=true" align=middle width=60.742260149999986pt height=22.831056599999986pt/>을 이용하여 평균 변화율의 극한값을 구한다.  
 
 
+# text
 
 
+<p align="center"><img src="/tex/5985f9c02f75c34c3aa40b2cff6f9bc3.svg?invert_in_darkmode&sanitize=true" align=middle width=100.75330154999999pt height=16.438356pt/></p>
 
+조건 방정식으로 표현하면 다음과 같다.  
 
+<p align="center"><img src="/tex/e717addd32463514950da3cce0c562a1.svg?invert_in_darkmode&sanitize=true" align=middle width=203.52704625pt height=49.315569599999996pt/></p>
 
+위 방정식<img src="/tex/d343a5beaabde2410ecf9f826344ed83.svg?invert_in_darkmode&sanitize=true" align=middle width=21.00464354999999pt height=24.65753399999998pt/>을 활용하여 표현해보자. 
 
+<p align="center"><img src="/tex/1f4cfc60d8855fdebd54c91e3e3beff2.svg?invert_in_darkmode&sanitize=true" align=middle width=329.3422341pt height=34.7253258pt/></p>
 
-
-
-
-
-
+<img src="/tex/dd9e3a6635a2cbe51aa4d0f0c1ca251b.svg?invert_in_darkmode&sanitize=true" align=middle width=96.52988894999999pt height=24.65753399999998pt/>를 이해하기 위해 <img src="/tex/b82b509cf285024a5fac5c7a7b0c3e48.svg?invert_in_darkmode&sanitize=true" align=middle width=18.52743584999999pt height=24.65753399999998pt/> 함수를 표현해보자.  
