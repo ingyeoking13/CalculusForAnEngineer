@@ -226,3 +226,21 @@ V 형태의 그래프가 된다. 아래는 <img src="/tex/d343a5beaabde2410ecf9f
 <img src="/tex/3993c02cec53cc98f949aaaf2660c48e.svg?invert_in_darkmode&sanitize=true" align=middle width=43.65474299999999pt height=14.15524440000002pt/>로 갈 때, 함수 <img src="/tex/7997339883ac20f551e7f35efff0a2b9.svg?invert_in_darkmode&sanitize=true" align=middle width=31.99783454999999pt height=24.65753399999998pt/>의 값은 <img src="/tex/ddcb483302ed36a59286424aa5e0be17.svg?invert_in_darkmode&sanitize=true" align=middle width=11.18724254999999pt height=22.465723500000017pt/>이라는 것이다. 이는 <img src="/tex/886d8745cc716220e2963fa72ced709e.svg?invert_in_darkmode&sanitize=true" align=middle width=64.39687319999999pt height=24.65753399999998pt/>을 뜻하는 것은 아니다.  
 처음 접선의 기울기 값을 구할 때 평균 변화율 <img src="/tex/7df4fe65623bdea4c58bf07cff4218d9.svg?invert_in_darkmode&sanitize=true" align=middle width=53.660747249999986pt height=24.65753399999998pt/>에서 <img src="/tex/64dadaf5586e074754ccb8a3a4027bb1.svg?invert_in_darkmode&sanitize=true" align=middle width=56.88346949999999pt height=22.465723500000017pt/>을 수행할 때에도 <img src="/tex/3919bbc84b8079e27194efe99a1f6a80.svg?invert_in_darkmode&sanitize=true" align=middle width=23.09366069999999pt height=22.465723500000017pt/>와 <img src="/tex/29632a9bf827ce0200454dd32fc3be82.svg?invert_in_darkmode&sanitize=true" align=middle width=8.219209349999991pt height=21.18721440000001pt/> 간에는 여전히 구별할만한 어떤 것이 있다고 하였다.  
 또, 다음 절대값 함수 <img src="/tex/18077011250e633f523b93a29c0595af.svg?invert_in_darkmode&sanitize=true" align=middle width=49.09427324999999pt height=24.65753399999998pt/>의 <img src="/tex/8436d02a042a1eec745015a5801fc1a0.svg?invert_in_darkmode&sanitize=true" align=middle width=39.53182859999999pt height=21.18721440000001pt/>에서의 평균 변화율 <img src="/tex/7ecefac5f7fd3977519dcb49d96c4f86.svg?invert_in_darkmode&sanitize=true" align=middle width=63.53897714999999pt height=24.65753399999998pt/>에서 <img src="/tex/64dadaf5586e074754ccb8a3a4027bb1.svg?invert_in_darkmode&sanitize=true" align=middle width=56.88346949999999pt height=22.465723500000017pt/>가 하나의 값으로 결정할 수 없는 것과도 상관이 있다. <img src="/tex/05dfe2f6f8e76bbd4b2a244a2b5b4c98.svg?invert_in_darkmode&sanitize=true" align=middle width=32.22610874999999pt height=24.65753399999998pt/>가 음수 또는 양수 방향에서 구별할만한 어떤 것을 가지는가에 따라 절대값 기호가 달라지기 때문이다.   
+
+더 적극적인 설명을 돕기 위해 다음 함수를 제시해 본다.  
+
+<p align="center"><img src="/tex/e2bc5087150da94338164603f41b91c9.svg?invert_in_darkmode&sanitize=true" align=middle width=87.0142713pt height=35.77743345pt/></p>
+
+위 식은 다음과 같이 쓸수 있다.
+
+<p align="center"><img src="/tex/eed747b2b151ce32a0c39284d69bb774.svg?invert_in_darkmode&sanitize=true" align=middle width=170.86342514999998pt height=14.611878599999999pt/></p>
+
+<img src="/tex/a9ef45be1cd9cd2165b8ebbb2a779178.svg?invert_in_darkmode&sanitize=true" align=middle width=21.00464354999999pt height=24.65753399999998pt/>에서 분모가 0이 될 수없으므로, <img src="/tex/cf330257519e06f13c2ecab5e25c6d2a.svg?invert_in_darkmode&sanitize=true" align=middle width=21.00464354999999pt height=24.65753399999998pt/>은 적절한 변환이다. <img src="/tex/863fe9d743c4a80a527803b7229ae3ad.svg?invert_in_darkmode&sanitize=true" align=middle width=43.184798249999986pt height=21.18721440000001pt/>일 때, <img src="/tex/deceeaf6940a8c7a5a02373728002b0f.svg?invert_in_darkmode&sanitize=true" align=middle width=8.649225749999989pt height=14.15524440000002pt/>의 값은 어떻게 변하겠는가?  
+
+<p align="center"><img src="/tex/8283e55704086c0f16183bdbb1b67ab8.svg?invert_in_darkmode&sanitize=true" align=middle width=217.5690561pt height=32.990165999999995pt/></p>
+
+<p align="center"><img src="/tex/4290d930b6c6325e1c36649003a37c70.svg?invert_in_darkmode&sanitize=true" align=middle width=234.00746985pt height=32.990165999999995pt/></p>
+
+<p align="center"><img src="/tex/d7ae2b4eb17532e2f6ef6c80e8e639c1.svg?invert_in_darkmode&sanitize=true" align=middle width=250.44588194999997pt height=32.990165999999995pt/></p>
+
+<p align="center"><img src="/tex/0e33747f7a0b2185dcd42160d33f4b54.svg?invert_in_darkmode&sanitize=true" align=middle width=31.963567349999998pt height=1.7351598pt/></p>
