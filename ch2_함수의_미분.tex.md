@@ -365,6 +365,7 @@ $$
 $$
 \text {if } 0 < |x-a| <\delta
 $$
+
 $$
 \text {then }
 |f(x) - L| < \epsilon, x \in \R
@@ -411,6 +412,4 @@ $$
 $$
 \lim_{x \to a}f(x) = f(a), \forall x
 $$
-
-
 
