@@ -6,8 +6,9 @@
 2. 접선  
 2.1 접선  
 2.2 접선의 기울기를 구하기   
-2.3 delta notation  
+2.3 delta notation 1  
 2.4 미분의 정의   
+2.5 delta notation 2
 
 ## introduction  
 `calculus`는 보통 크게 두 파트로 나뉜다. 첫 째는 `미분differential calculus`이고, 둘 째는 `적분integral calculus`이다.  
@@ -30,14 +31,14 @@
 
 ## 2.2 접선의 기울기를 구하기  
 
-곡선 위의 점 P가 다음을 만족한다고 하자.   <img src="/tex/12d0ceffb3db9300f7b8af2ac568ece7.svg?invert_in_darkmode&sanitize=true" align=middle width=87.04905824999999pt height=24.65753399999998pt/>   
-그리고, 곡선 위의 다른점 Q가 다음을 만족한다고 하자.<img src="/tex/177cbeed7678f0a9149fe5d25b55740b.svg?invert_in_darkmode&sanitize=true" align=middle width=87.20771069999998pt height=24.65753399999998pt/>
+곡선 위의 점 P가 다음을 만족한다고 하자. <img src="/tex/12d0ceffb3db9300f7b8af2ac568ece7.svg?invert_in_darkmode&sanitize=true" align=middle width=87.04905824999999pt height=24.65753399999998pt/>    
+그리고, 곡선 위의 다른점 Q가 다음을 만족한다고 하자. <img src="/tex/177cbeed7678f0a9149fe5d25b55740b.svg?invert_in_darkmode&sanitize=true" align=middle width=87.20771069999998pt height=24.65753399999998pt/>  
 
 이 때, 선분 <img src="/tex/6fbc176ce9ff34475832a5ff858b7ddd.svg?invert_in_darkmode&sanitize=true" align=middle width=25.832197049999987pt height=27.725679300000007pt/>는 다음을 만족한다.  
 
-<p align="center"><img src="/tex/23b474640b5e1ea9d2e56e5467d22d95.svg?invert_in_darkmode&sanitize=true" align=middle width=239.15455079999998pt height=34.45133834999999pt/></p>
+<p align="center"><img src="/tex/9ad454d5176973ddacf4d7db8901668d.svg?invert_in_darkmode&sanitize=true" align=middle width=239.42859764999997pt height=34.45133834999999pt/></p>
 
-점 Q를 움직여, <img src="/tex/277fbbae7d4bc65b6aa601ea481bebcc.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>을 <img src="/tex/e714a3139958da04b41e3e607a544455.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>에 근접한다고 하자. 선분은 접선 <img src="/tex/df5a289587a2f0247a5b97c1e8ac58ca.svg?invert_in_darkmode&sanitize=true" align=middle width=12.83677559999999pt height=22.465723500000017pt/>와 닮아 가는 것을 볼 수 있다. 이러한 행위를 다음과 같이 표현할 수 있다.
+점 Q를 움직여, <img src="/tex/277fbbae7d4bc65b6aa601ea481bebcc.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>을 <img src="/tex/e714a3139958da04b41e3e607a544455.svg?invert_in_darkmode&sanitize=true" align=middle width=15.94753544999999pt height=14.15524440000002pt/>에 근접한다고 하자. 선분은 접선 <img src="/tex/df5a289587a2f0247a5b97c1e8ac58ca.svg?invert_in_darkmode&sanitize=true" align=middle width=12.83677559999999pt height=22.465723500000017pt/>와 닮아 가는 것을 직관적으로 알 수 있다. 이러한 행위를 다음과 같이 표현할 수 있다.
 
 <p align="center"><img src="/tex/23884bcdf5cb070bcce193784289267c.svg?invert_in_darkmode&sanitize=true" align=middle width=227.3624991pt height=34.45133834999999pt/></p>  
 
@@ -59,7 +60,7 @@
 
 <p align="center"><img src="/tex/bcb76e422d7994f5883f6e6a59dd5679.svg?invert_in_darkmode&sanitize=true" align=middle width=60.5174757pt height=13.059335849999998pt/></p>
 
-## 2.3 delta notation  
+## 2.3 delta notation 1 
 
 `delta notation`은 <img src="/tex/3919bbc84b8079e27194efe99a1f6a80.svg?invert_in_darkmode&sanitize=true" align=middle width=23.09366069999999pt height=22.465723500000017pt/>과 같이 표기한다. <img src="/tex/7e9fe18dc67705c858c077c5ee292ab4.svg?invert_in_darkmode&sanitize=true" align=middle width=13.69867124999999pt height=22.465723500000017pt/>는 그리스 문자로 영어 알파벳 <img src="/tex/2103f85b8b1477f430fc407cad462224.svg?invert_in_darkmode&sanitize=true" align=middle width=8.55596444999999pt height=22.831056599999986pt/>를 뜻한다. 이 때 <img src="/tex/2103f85b8b1477f430fc407cad462224.svg?invert_in_darkmode&sanitize=true" align=middle width=8.55596444999999pt height=22.831056599999986pt/>는 `difference`를 뜻하며 두 변수간 값의 차이를 표현하기 위해 사용한다.
 
@@ -122,18 +123,40 @@ Thus,
 >STEP 2 <img src="/tex/3919bbc84b8079e27194efe99a1f6a80.svg?invert_in_darkmode&sanitize=true" align=middle width=23.09366069999999pt height=22.465723500000017pt/>로 나누어 평균 변화율을 구한다. <img src="/tex/cc978f0a9435c602f7d4f82f85032c09.svg?invert_in_darkmode&sanitize=true" align=middle width=89.47544265pt height=33.20539859999999pt/>  
 >STEP 3 <img src="/tex/f24f315a0766ef5a65c0907abc789ca4.svg?invert_in_darkmode&sanitize=true" align=middle width=60.742260149999986pt height=22.831056599999986pt/>을 이용하여 평균 변화율의 극한값을 구한다.  
 
+**Example 1** Find <img src="/tex/9ce3fa8c71f5905e328dcae5b1d69e2d.svg?invert_in_darkmode&sanitize=true" align=middle width=36.60970994999999pt height=24.7161288pt/> if <img src="/tex/cd45989378bd32cf1227ffcccb9ed8c4.svg?invert_in_darkmode&sanitize=true" align=middle width=69.86299979999998pt height=26.76175259999998pt/>  
 
-# text
+**STEP 1**
+
+<p align="center"><img src="/tex/5bf82832cc8a9de96ad3d0d2726abf46.svg?invert_in_darkmode&sanitize=true" align=middle width=257.96779964999996pt height=18.312383099999998pt/></p>
+ <p align="center"><img src="/tex/d21fb6e7e1c42d0508902854a48e3d9e.svg?invert_in_darkmode&sanitize=true" align=middle width=282.63690015000003pt height=18.312383099999998pt/></p>
+ <p align="center"><img src="/tex/19d76b3bc0d7e3c4db2db644a2e831ab.svg?invert_in_darkmode&sanitize=true" align=middle width=208.91562284999998pt height=18.312383099999998pt/></p>
+ <p align="center"><img src="/tex/8c66ca08adc7012f3fbb11018d321ebf.svg?invert_in_darkmode&sanitize=true" align=middle width=202.3630752pt height=18.312383099999998pt/></p>
+
+**STEP 2**
+
+<p align="center"><img src="/tex/605e68046043dbd99e819e6f2358037b.svg?invert_in_darkmode&sanitize=true" align=middle width=299.47238474999995pt height=34.7253258pt/></p>
+
+**STEP 3**
+
+<p align="center"><img src="/tex/d048c58bb970c657e384da326b76b858.svg?invert_in_darkmode&sanitize=true" align=middle width=304.44068159999995pt height=24.805529099999998pt/></p>
+
+함수 <img src="/tex/bed39cc142caec73dd26ebf7cb3356a7.svg?invert_in_darkmode&sanitize=true" align=middle width=63.342435749999986pt height=27.77565449999998pt/> 와 <img src="/tex/ac95dfbba07837bc60d1bd101cd4a439.svg?invert_in_darkmode&sanitize=true" align=middle width=77.00912505pt height=24.995338500000003pt/>에 대해서 도함수도 구하는 절차는 독자에게 맡긴다.   
+각각의 도함수는 <img src="/tex/f1193304c9a9cab050a4a1ae7304b356.svg?invert_in_darkmode&sanitize=true" align=middle width=87.15533474999998pt height=27.77565449999998pt/>과 <img src="/tex/bd35de8ca9ff4917f371f7f89cd5c581.svg?invert_in_darkmode&sanitize=true" align=middle width=85.30599164999998pt height=27.77565449999998pt/>이다. 
+
+결과 도함수의 이해를 돕기위해 간략히 쓴다. 도함수 <img src="/tex/f1193304c9a9cab050a4a1ae7304b356.svg?invert_in_darkmode&sanitize=true" align=middle width=87.15533474999998pt height=27.77565449999998pt/>는 <img src="/tex/fabb70be53704ed7e6095eca25e82d82.svg?invert_in_darkmode&sanitize=true" align=middle width=70.84469699999998pt height=24.65753399999998pt/>에서 항상 음수이다. 그리고 <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>가 <img src="/tex/29632a9bf827ce0200454dd32fc3be82.svg?invert_in_darkmode&sanitize=true" align=middle width=8.219209349999991pt height=21.18721440000001pt/>에 근접할 수록 도함수 <img src="/tex/9ce3fa8c71f5905e328dcae5b1d69e2d.svg?invert_in_darkmode&sanitize=true" align=middle width=36.60970994999999pt height=24.7161288pt/>의 매우 큰 수로 발산하는 것을 알 수 있다. 이는 <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>가 <img src="/tex/29632a9bf827ce0200454dd32fc3be82.svg?invert_in_darkmode&sanitize=true" align=middle width=8.219209349999991pt height=21.18721440000001pt/>에 근접할수록 접선이 매우 가팔라 진다는 것이다. <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>의 절대값이 커질수록 <img src="/tex/9ce3fa8c71f5905e328dcae5b1d69e2d.svg?invert_in_darkmode&sanitize=true" align=middle width=36.60970994999999pt height=24.7161288pt/>는 <img src="/tex/29632a9bf827ce0200454dd32fc3be82.svg?invert_in_darkmode&sanitize=true" align=middle width=8.219209349999991pt height=21.18721440000001pt/>에 수렴하며, 접선이 수평선에 가까워진다는 것이다.   
 
 
-<p align="center"><img src="/tex/5985f9c02f75c34c3aa40b2cff6f9bc3.svg?invert_in_darkmode&sanitize=true" align=middle width=100.75330154999999pt height=16.438356pt/></p>
+## 2.5 delta notation 2  
 
-조건 방정식으로 표현하면 다음과 같다.  
+수학에 있어 표기법은 굉장히 중요한 역할을 한다. 좋은 표기법은 좋은 방향성을 제시해주며, 나쁜 표기법은 쉬운 표현도 어렵게 만드는 법이다.  
 
-<p align="center"><img src="/tex/e717addd32463514950da3cce0c562a1.svg?invert_in_darkmode&sanitize=true" align=middle width=203.52704625pt height=49.315569599999996pt/></p>
+우리는 함수 <img src="/tex/7997339883ac20f551e7f35efff0a2b9.svg?invert_in_darkmode&sanitize=true" align=middle width=31.99783454999999pt height=24.65753399999998pt/>의 도함수를 <img src="/tex/9ce3fa8c71f5905e328dcae5b1d69e2d.svg?invert_in_darkmode&sanitize=true" align=middle width=36.60970994999999pt height=24.7161288pt/>라고 표기하였다. 도함수는 함수 <img src="/tex/7997339883ac20f551e7f35efff0a2b9.svg?invert_in_darkmode&sanitize=true" align=middle width=31.99783454999999pt height=24.65753399999998pt/>에서 도출되었지만 정의역 <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>에 대한 다른 함수임을 강조하기 위해서 <img src="/tex/9ce3fa8c71f5905e328dcae5b1d69e2d.svg?invert_in_darkmode&sanitize=true" align=middle width=36.60970994999999pt height=24.7161288pt/>라는 표기를 쓰므로, 좋은표현이라 할 수 있다. 종종, 함수의 치역 변수인 <img src="/tex/deceeaf6940a8c7a5a02373728002b0f.svg?invert_in_darkmode&sanitize=true" align=middle width=8.649225749999989pt height=14.15524440000002pt/>를 써서 <img src="/tex/15f93b25ba881e5829e8fc647b680fb2.svg?invert_in_darkmode&sanitize=true" align=middle width=12.43916849999999pt height=24.7161288pt/>도 쓰기도 한다.  
 
-위 방정식<img src="/tex/d343a5beaabde2410ecf9f826344ed83.svg?invert_in_darkmode&sanitize=true" align=middle width=21.00464354999999pt height=24.65753399999998pt/>을 활용하여 표현해보자. 
+도함수를 표현하는데에 <img src="/tex/9ce3fa8c71f5905e328dcae5b1d69e2d.svg?invert_in_darkmode&sanitize=true" align=middle width=36.60970994999999pt height=24.7161288pt/>의 사용은 단점도 있다. 도함수가 어떻게 도출되었는가를 명확하게 드러내주지 않는다는 점이다. 
 
-<p align="center"><img src="/tex/1f4cfc60d8855fdebd54c91e3e3beff2.svg?invert_in_darkmode&sanitize=true" align=middle width=329.3422341pt height=34.7253258pt/></p>
+앞으로 소개할 수학자 `Leibniz`의 도함수 표현은 도함수가 어떻게 도출되었는가에 대해서는 명확하다고 할 수 있다.
 
-<img src="/tex/dd9e3a6635a2cbe51aa4d0f0c1ca251b.svg?invert_in_darkmode&sanitize=true" align=middle width=96.52988894999999pt height=24.65753399999998pt/>를 이해하기 위해 <img src="/tex/b82b509cf285024a5fac5c7a7b0c3e48.svg?invert_in_darkmode&sanitize=true" align=middle width=18.52743584999999pt height=24.65753399999998pt/> 함수를 표현해보자.  
+<p align="center"><img src="/tex/e53c7b009bf484747de2a671428b01ad.svg?invert_in_darkmode&sanitize=true" align=middle width=171.53721915pt height=16.438356pt/></p>
+
+<p align="center"><img src="/tex/18a7107c6d59f4151d1d363769a48815.svg?invert_in_darkmode&sanitize=true" align=middle width=130.9650672pt height=33.81208709999999pt/></p>
+<p align="center"><img src="/tex/647239bcbb8e18a4824e6c8087d6843a.svg?invert_in_darkmode&sanitize=true" align=middle width=28.76723355pt height=10.110901349999999pt/></p>f(x)=|x-1|<p align="center"><img src="/tex/fbf6d81692d417703ba277b8d64fb487.svg?invert_in_darkmode&sanitize=true" align=middle width=4.5662232pt height=1.7351598pt/></p>|x-1| = <p align="center"><img src="/tex/ce621b9e8bc4baa784bb0c7649cc81c8.svg?invert_in_darkmode&sanitize=true" align=middle width=134.77157924999997pt height=49.315569599999996pt/></p><p align="center"><img src="/tex/5d03ae52e789a133b0f8adb6d9e6f259.svg?invert_in_darkmode&sanitize=true" align=middle width=36.529754249999996pt height=16.438356pt/></p>f'(1)=\lim_{\Delta x \to 0}\frac{f(1 + \Delta x)-1}{\Delta x}=\lim_{\Delta x \to 0}\frac{|\Delta x |-1}{\Delta x}$<img src="/tex/51709c221bb606c7f0a6193f462db8dd.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>\lim_{\Delta x \to 0}|\Delta x|<img src="/tex/65ee5492c75d06c4cdb0fcadb4578e48.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>|x|$ 함수를 표현해보자.  
