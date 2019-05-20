@@ -299,16 +299,4 @@ $$\delta = (1/2)*\epsilon$$
 
 $x$와 $0$의 거리가 $\delta$보다 작다면, $f(x)$와 $1$의 거리가 $\epsilon$보다 작다.    
 
-$$
-\text{ if }\;  |x| \lt ( \delta = \frac{1}{2} * \epsilon), \;\text{ then } ( | f(x) - 1| = |2x|) < \epsilon 
-$$
-
-위 표현식은 $x \to 0$행위에 대해 좀 더 엄밀하게 표현해준다. $\delta \ne 0, x \ne 0$을 만족하면서 $x$와 $0$의 거리가 굉장히 작아진다.   
-이 때, 실수 체계에서 굉장히 작은 $\delta$를 꾸준히 제시할 수 있으며, $| f(x) -1 |, \epsilon$ 값도 작아지는 것을 알 수 있다. 
-
-식 $(1)$의 $\lim_{x \to a}f(x) = L$에 대해 `epsilon-delta`표현을 사용하면 아래와 같다.  
-
-$$
-\text {if } 0 < |x-a| <\delta
-$$
 
