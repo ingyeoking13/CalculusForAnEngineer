@@ -254,11 +254,15 @@ $$
 실생활에서 쓰일 수 있는 속도 문제에 대해서 이야기해보자.  
 일차원 직선위에 어느 물체가 움직이고 있다고하자. 매 초마다 그 물체가 어디에 있는지 정확히 알고 있다고 하자. 그러면 시간에 대한 위치 함수는 다음과 같다.  
 
-$$position = f(time)$$
+$$
+position = f(time)
+$$
 
 편의를 위해 $position$의 $s$를, $time$의 $t$를 쓰자.
 
-$$s= f(t)$$
+$$
+s= f(t)
+$$
 
 낙하 운동하는 물체의 시간에 대한 위치 함수가 $s=16t^2$이라 하자. 그렇다면 $t=5$일때, $s=400$이다. 만약 단위가 각각 $s(meter), t(seconds)$라 할때, $t=5sec$일때, $s=400m$이다. 만약 $400m$높이에서 떨어뜨렸다면, $5sec$에 지면에 도달한다.  
 
@@ -296,7 +300,6 @@ $$
 $$
 Area = \pi r^2 
 $$
-
 
 $$
 \frac{d}{dr}Area = \lim_{\Delta r \to 0}\frac{f(r + \Delta r) - f(r)}{\Delta r} = \lim_{\Delta r \to 0}\frac{2\pi r\Delta r + (\Delta r)^2}{\Delta r}
