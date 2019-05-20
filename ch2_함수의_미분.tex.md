@@ -291,3 +291,66 @@ $$
 $$
 \text {.......}
 $$
+
+반복하다보면 $y \to 1$임을 알 수 있다. 위의 수식을 좀 더 일반적으로 표현하기 위해 다음의 표현을 쓰자.  
+$\epsilon$이 $0$이 아닌 어떤 양의 값이라고 해보자. 그리고 다음을 만족하는 $\delta$가 있다고 하자. $\delta = (1/2)*\epsilon$.   
+$x$와 $0$의 거리가 $\delta$보다 작다면, $f(x)$와 $1$의 거리가 $\epsilon$보다 작다.    
+
+$$
+\text{ if }\;  |x| \lt ( \delta = \frac{1}{2} * \epsilon), \;\text{ then } ( | f(x) - 1| = |2x|) < \epsilon 
+$$
+
+위 표현식은 $x \to 0$행위에 대해 좀 더 엄밀하게 표현해준다. $\delta \ne 0, x \ne 0$을 만족하면서 $x$와 $0$의 거리가 굉장히 작아진다. 이 때, 실수 체계에서 굉장히 작은 $\delta$를 꾸준히 제시할 수 있으며, $| f(x) -1 |, \epsilon$ 값도 작아지는 것을 알 수 있다. 
+
+식 $(1)$의 $\lim_{x \to a}f(x) = L$에 대해 `epsilon-delta`표현을 사용하면 아래와 같다.  
+
+$$
+\text {if } 0 < |x-a| <\delta
+$$
+
+$$
+\text {then }
+|f(x) - L| < \epsilon, x \in \R
+$$
+
+이로써 극한값이란, 함수의 임의의 점에서 반드시 함수값을 가지지 않고 있어도 되며 $x$가 임의의 점으로 수렴할수록 어떠한 값에 꾸준히 수렴해나가는 형태를 띄고 있으면 된다.  `(epsilon-delta 부분은 추후에 수정 부탁)`  
+
+다음은 극한 값을 구하는 규칙을 짤막히 정리한 것이다.  
+
+$$
+\lim_{x \to a}x = a
+$$
+
+$$
+\lim_{x \to a}c = c, \text { where  } c \text { is constant.  }
+$$
+
+그리고 $\lim_{ x \to a } f(x) =L, \lim_{x \to a}g(x) = M$이라면 다음을 만족한다.
+
+$$
+\lim_{x \to a}[f(x) + g(x)] = L + M
+$$
+
+$$
+\lim_{x \to a}[f(x) - g(x)] = L - M
+$$
+
+$$
+\lim_{x \to a}[f(x) * g(x)] = L * M
+$$
+
+$$
+\lim_{x \to a}\frac{f(x)}{g(x)} = \frac{L}{M}, \text {where }  M \ne 0
+$$
+
+연속이란 다음을 만족한다.  
+
+$$
+\lim_{x \to a}f(x) = f(a), x \in \R
+$$
+
+연속 함수란 다음을 만족한다.  
+
+$$
+\lim_{x \to a}f(x) = f(a), \forall x
+$$
