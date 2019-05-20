@@ -216,3 +216,13 @@ V 형태의 그래프가 된다. 아래는 <img src="/tex/d343a5beaabde2410ecf9f
 
 나머지 증명은 독자들에게 맡긴다.   
 
+
+## 2.8Last 극한과 연속 함수
+
+아래 표현식을 보자. 
+
+<p align="center"><img src="/tex/d6546e43eb99945b3ccefd9d287032e4.svg?invert_in_darkmode&sanitize=true" align=middle width=95.53215209999999pt height=22.1917806pt/></p>
+
+<img src="/tex/3993c02cec53cc98f949aaaf2660c48e.svg?invert_in_darkmode&sanitize=true" align=middle width=43.65474299999999pt height=14.15524440000002pt/>로 갈 때, 함수 <img src="/tex/7997339883ac20f551e7f35efff0a2b9.svg?invert_in_darkmode&sanitize=true" align=middle width=31.99783454999999pt height=24.65753399999998pt/>의 값은 <img src="/tex/ddcb483302ed36a59286424aa5e0be17.svg?invert_in_darkmode&sanitize=true" align=middle width=11.18724254999999pt height=22.465723500000017pt/>이라는 것이다. 이는 <img src="/tex/886d8745cc716220e2963fa72ced709e.svg?invert_in_darkmode&sanitize=true" align=middle width=64.39687319999999pt height=24.65753399999998pt/>을 뜻하는 것은 아니다.  
+처음 접선의 기울기 값을 구할 때 평균 변화율 <img src="/tex/7df4fe65623bdea4c58bf07cff4218d9.svg?invert_in_darkmode&sanitize=true" align=middle width=53.660747249999986pt height=24.65753399999998pt/>에서 <img src="/tex/64dadaf5586e074754ccb8a3a4027bb1.svg?invert_in_darkmode&sanitize=true" align=middle width=56.88346949999999pt height=22.465723500000017pt/>을 수행할 때에도 <img src="/tex/3919bbc84b8079e27194efe99a1f6a80.svg?invert_in_darkmode&sanitize=true" align=middle width=23.09366069999999pt height=22.465723500000017pt/>와 <img src="/tex/29632a9bf827ce0200454dd32fc3be82.svg?invert_in_darkmode&sanitize=true" align=middle width=8.219209349999991pt height=21.18721440000001pt/> 간에는 여전히 구별할만한 어떤 것이 있다고 하였다.  
+또, 다음 절대값 함수 <img src="/tex/18077011250e633f523b93a29c0595af.svg?invert_in_darkmode&sanitize=true" align=middle width=49.09427324999999pt height=24.65753399999998pt/>의 <img src="/tex/8436d02a042a1eec745015a5801fc1a0.svg?invert_in_darkmode&sanitize=true" align=middle width=39.53182859999999pt height=21.18721440000001pt/>에서의 평균 변화율 <img src="/tex/7ecefac5f7fd3977519dcb49d96c4f86.svg?invert_in_darkmode&sanitize=true" align=middle width=63.53897714999999pt height=24.65753399999998pt/>에서 <img src="/tex/64dadaf5586e074754ccb8a3a4027bb1.svg?invert_in_darkmode&sanitize=true" align=middle width=56.88346949999999pt height=22.465723500000017pt/>가 하나의 값으로 결정할 수 없는 것과도 상관이 있다. <img src="/tex/05dfe2f6f8e76bbd4b2a244a2b5b4c98.svg?invert_in_darkmode&sanitize=true" align=middle width=32.22610874999999pt height=24.65753399999998pt/>가 음수 또는 양수 방향에서 구별할만한 어떤 것을 가지는가에 따라 절대값 기호가 달라지기 때문이다.   
