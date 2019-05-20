@@ -209,3 +209,10 @@ V 형태의 그래프가 된다. 아래는 <img src="/tex/d343a5beaabde2410ecf9f
 함수 하나를 더보자.  
 
 <p align="center"><img src="/tex/cde420a092762ad4052fece7695602e4.svg?invert_in_darkmode&sanitize=true" align=middle width=101.92907999999998pt height=16.438356pt/></p>
+
+이때, <img src="/tex/2f3c8b04b987706450f80c5b0c2619d4.svg?invert_in_darkmode&sanitize=true" align=middle width=39.53182859999999pt height=21.18721440000001pt/>에서 미분 가능하지 않음을 보일 수 있겠는가?  
+
+<p align="center"><img src="/tex/76625d214d11d21d199d0d2dc1b0f77a.svg?invert_in_darkmode&sanitize=true" align=middle width=366.81952559999996pt height=34.7253258pt/></p>
+
+나머지 증명은 독자들에게 맡긴다.   
+
