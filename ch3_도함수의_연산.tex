@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{kotex}
+\usepackage{amsmath}
+\begin{document}
+\setcounter{section}{2}
+\section{도함수의 연산}
+
+\subsection{다항식의 도함수}
+
+함수의 도함수는 정의는 다음과 같다.
+\[
+    f'(x) = \lim_{\Delta x \to 0}\frac{f(x+\Delta x)-f(x)}{\Delta x},
+\]
+또는
+\[
+    \frac{dy}{dx}=\frac{d}{dx}f(x) = \lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x}
+\]
+이번 섹션에서는 도함수 연산을 연습한다. 
+다항식에 대한 미분의 간략한 규칙은 다음과 같다.\\\\
+\textit{1. 상수의 도함수는 0이다.}
+\[
+    \frac{d}{dx}c = 0.
+\]
+기하학적 의미로는 x축에 대한 수평선 $y=f(x)=c$는 기울기 $m=0$, $\forall x$이라는 뜻이다.
+\\\\
+\textit{2. $n$이 양의 정수이면, 다음을 만족한다.}  
+\[
+    \frac{d}{dx}x^{n}=nx^{n-1}.
+\]
+$x^n$의 도함수는 지수 $n$을 내려오게하여 상수 계수로 만들고, 기존 지수에서 $1$을 차감하여 새 지수로 만든다.
+증명은 다음과 같다.
+\begin{align*}
+    \text{Let } f(x)&=x^n. \\
+    \Delta y&= f(x+\Delta x) - f(x) = (x+\Delta x)^n - \Delta x^n \\
+            &= \Big{[}x^n+nx^{n-1}+\frac{n(n-1)}{2}x^{n-2}(\Delta x)^2 + ... + (\Delta x)^n \Big{]} - x^n \\
+            &= nx^{n-1}\Delta x + \frac{n(n-1)}{2}x^{n-2}(\Delta x)^2 + ... + (\Delta x)^n.\\
+    \text{and } \\
+    \frac{dy}{dx} &= \lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x}\\
+    &= \lim_{\Delta x \to 0}\Big{[}nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}\Delta x + ... + (\Delta x)^{n-1}\Big{]}\\
+    &= nx^{n-1}
+\end{align*}
+\\\\
+\textit{3. $c$가 상수이고 $u=f(x)$가 x에 대해 미분가능할 때, 다음을 만족한다.}\\  
+\[
+    \frac{d}{dx}(cu)=c\frac{du}{dx}
+\]
+즉, 임의의 함수의 상수배인 함수는 도함수도 상수배이다. 이를 증명하기 위해 $y=cu=cf(x)$라 하자. 
+그렇다면 $\Delta y = cf(x+\Delta x)-cf(x)=c[f(x+\Delta x)-f(x)]=c\Delta u$ 이다. 이 때 다음을 만족한다.  
+\[
+    \frac{dy}{dx}=\lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x} = \lim_{\Delta x \to 0}\frac{c\Delta u}{\Delta x}=c\lim_{\Delta x \to 0}\frac{\Delta u}{\Delta x}=c\frac{\Delta u}{\Delta x} 
+\]
+규칙 2와 3을 통해 다음을 확인할 수 있다.  
+\[
+    \frac{d}{dx}cx^n=cx^{n-1}
+\]
+\\\\
+\textit{4. $u=f(x)$와 $v=g(x)$가 $x$의 함수일 때, 다음을 만족한다.}
+\[
+    \frac{d}{dx}(u+v)=\frac{du}{dx}+\frac{dv}{dx}.
+\]
+증명은 다음을 따른다. $y= u+v = f(x)+g(x)$라 하자. 그렇다면 $\Delta y=[f(x+\Delta x)+g(x+\Delta x)]-[f(x)+g(x)]= [f(x+\Delta x)-f(x)] + [g(x + \Delta x)-g(x)] = \Delta u + \Delta v$
+\begin{align*}
+    \frac{dy}{dx}&=\lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x} = \lim_{\Delta x \to 0}\frac{\Delta u + \Delta v}{\Delta x}= \lim_{\Delta x \to 0}\Big{[}\frac{\Delta u}{\Delta x}+\frac{\Delta v}{\Delta x}\Big{]}\\
+                 &=\lim_{\Delta x \to 0}\frac{\Delta u}{\Delta x} + \lim{\Delta x \to 0}\frac{\Delta v}{\Delta x}= \frac{du}{dx}+\frac{dv}{dx}.
+\end{align*}
+
+\subsection{곱과 나눗셈 규칙}
+
+덧셈과 상수 곱에 관련하여 도함수를 도출하는 규칙을 알아보았다. 앞으로는
+\[
+    uv \text{ 그리고 } \frac{u}{v}
+\]
+
+
+\end{document}
