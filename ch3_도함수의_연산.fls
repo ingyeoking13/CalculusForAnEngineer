@@ -33,6 +33,10 @@ INPUT d:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT d:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT d:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT d:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT d:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT d:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT d:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT d:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT d:/source/공학도를 위한 미적분/ch3_도함수의_연산.aux
 INPUT d:/source/공학도를 위한 미적분/ch3_도함수의_연산.aux
 OUTPUT d:/source/공학도를 위한 미적분/ch3_도함수의_연산.aux
@@ -63,6 +67,16 @@ INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmc8.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmac.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmb6.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmbc.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmc1.tfm
@@ -110,13 +124,11 @@ INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbb0.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbc1.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbad.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbce.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmad.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmb9.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmac.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmad.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmb9.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmac.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT d:/source/공학도를 위한 미적분/ch3_도함수의_연산.aux
+INPUT d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

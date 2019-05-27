@@ -1,6 +1,6 @@
 \documentclass{article}
 \usepackage{kotex}
-\usepackage{amsmath}
+\usepackage{amsmath, amssymb}
 \begin{document}
 \setcounter{section}{2}
 \section{도함수의 연산}
@@ -66,10 +66,22 @@ $x^n$의 도함수는 지수 $n$을 내려오게하여 상수 계수로 만들�
 
 \subsection{곱과 나눗셈 규칙}
 
-덧셈과 상수 곱에 관련하여 도함수를 도출하는 규칙을 알아보았다. 앞으로는
+덧셈과 상수 곱과 관련해 도함수를 구하는 규칙을 알아보았다. 이번에는 함수의 곱과 나눗셈에 대한 도함수를 구하는 규칙을 알아볼 것이다.\\
 \[
-    uv \text{ 그리고 } \frac{u}{v}
+    uv \text{ and } \frac{u}{v}, \text{ where u and v are differentiable function of x.}
 \]
-
+예로 $u=x^3, v=x^4$라 하자. 이 때, $uv$의 도함수는 각 함수의 도함수의 곱인 $\frac{d}{dx}(uv) = 3x^2 * 4x^3 = 12x^5$ 가 아닌, $\frac{d}{dx}(uv) = 7x^6$ 이다. 
+다음은 두 함수의 곱으로 생성된 함수의 도함수 도출 증명이다. 
+\begin{align*}
+    &\textbf{Let } y=uv\\
+    &y+\Delta y = (u+\Delta u)(v+\Delta v) = uv + u\Delta v + v\Delta u + \Delta u \Delta v\tag{1}\\
+    &\Delta y = (y+\Delta y)- y = u\Delta u + v\Delta v + \Delta u\Delta v\\
+    &\frac{\Delta y}{\Delta x} = u\frac{\Delta v}{\Delta x} + v\frac{\Delta u}{\Delta x} + \Delta u\frac{\Delta v}{\Delta x}\\
+    &\text{Taking limits as } \Delta x \to 0 \text{ then, }\\
+    &\frac{dy}{dx} = u\frac{dv}{dx} + v\frac{du}{dx} + 0\frac{dv}{dx}\tag{2}\\
+    &\text{Thus, }\\
+    &\frac{d}{dx}(uv) = u\frac{dv}{dx} + v\frac{du}{dx}.
+\end{align*}
+위 $(1)$은 $\Delta y = \Delta (uv)$이고, 각각의 변화량을 고려하기 때문에 $y+\Delta v = (u+\Delta u)(v+\Delta v)$이다. 그리고 $(2)$에서 $\Delta x \to 0$일 때, $\Delta u \to 0, \Delta v \to 0$이므로 나머지 항이 라이프니츠 표현식을 따라 $dy/dx$가 되며, 3항의 $\Delta u$가 $0$이 되는 것이다.
 
 \end{document}
